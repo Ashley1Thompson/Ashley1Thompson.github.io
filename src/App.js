@@ -1,5 +1,13 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import aboutMe from "./components/aboutMe";
+import nav from "./components/nav";
+import projects from "./components/projects";
+import header from "./components/header";
+import footer from "./components/footer";
+import contact from "./components/contact";
+import resume from "./components/resume";
+
 
 function App() {
   return (
