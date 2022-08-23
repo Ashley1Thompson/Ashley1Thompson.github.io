@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.scss';
-import aboutMe from "./components/aboutMe";
-import nav from "./components/nav";
-import projects from "./components/projects";
-import header from "./components/header";
-import footer from "./components/footer";
-import contact from "./components/contact";
-import resume from "./components/resume";
+import AboutMe from "./components/aboutMe";
+import Nav from "./components/nav";
+import Projects from "./components/projects";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Contact from "./components/contact";
+import Resume from "./components/resume";
 
 
 function App() {
