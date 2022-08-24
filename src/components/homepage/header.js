@@ -5,7 +5,9 @@ function Header() {
   return (
 //return header html
 <header>
-    
+    <div id="hero">
+      
+    </div>
 </header>
   );
 }

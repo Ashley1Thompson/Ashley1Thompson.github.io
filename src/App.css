@@ -4,16 +4,37 @@
   /* header, navbar links, hero image or title image */
 }
 
+body {
+  background-image: url('./assets/images/lofiroom.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed ;
+}
+
+#hero {
+  background-image: url('./assets/images/im_ashley.png');
+  background-repeat: no-repeat;
+  height: 10%;
+  width: 100%;
+}
+
 .navbar {
-  background: #58a4f6;
+  background-color: #f6588794;
   height: 60px;
-  text-align: center;
+  text-align: left;
 }
 
 .navbar a {
+  display: flex row;
+  padding: 1%;
   color: white;
+  font-family: 'Source Code Pro' ;
   font-size: 1.3rem;
   text-decoration: none;
   margin: 5px;
   line-height: 3;
+}
+
+.attributions {
+  font-size: 6px;
 }

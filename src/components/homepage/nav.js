@@ -7,10 +7,10 @@ function Nav(props) {
 //return navbar html
     <div>  
       <nav className="navbar">
-      <a onClick={() => props.setCurrentPage("aboutMe")} href="/">About Me</a>
-      <a onClick={() => props.setCurrentPage("projects")}href="/">Projects</a>
-      <a onClick={() => props.setCurrentPage("resume")}href="/">Resume</a>
-      <a onClick={() => props.setCurrentPage("contact")}href="/">Contact</a>
+      <a onClick={() => props.setCurrentPage("aboutMe")} href="/">about me</a>
+      <a onClick={() => props.setCurrentPage("projects")}href="/">projects</a>
+      <a onClick={() => props.setCurrentPage("resume")}href="/">resume</a>
+      <a onClick={() => props.setCurrentPage("contact")}href="/">contact</a>
           
       </nav>
     </div>  
