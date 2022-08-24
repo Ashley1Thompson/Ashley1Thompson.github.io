@@ -4,6 +4,9 @@ import React from 'react';
 function Footer() {
   return (
 //return footer html
+<footer>
+
+</footer>
   );
 }
 

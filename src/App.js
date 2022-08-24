@@ -1,6 +1,6 @@
 // import necessary components
 import React, {useState} from 'react';
-import './App.scss';
+import './App.css';
 import AboutMe from "./components/aboutMe";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
@@ -14,21 +14,25 @@ function App() {
   const [currentPage, setCurrentPage,] = useState('aboutMe')
 
   const renderPage = () => {
-    if (currentPage === 'aboutMe') {
-      return <AboutMe />;
-    } else if (currentPage === 'projects') {
-      return <Projects />;
-    } else if (currentPage === 'contact') {
-      return <Contact />;
-    }  else if (currentPage === 'resume') {
-      return <Resume />;
+    switch(currentPage) {
+    case 'aboutMe':
+      return <AboutMe />    
+    case 'projects':
+      debugger   
+      return <Projects /> 
+    case 'resume':
+      return <Resume />    
+    case 'contact':
+      return <Contact /> 
+    default: 
+      return <AboutMe />    
     }
   }; 
   
-  const changePage = (page) => currentPage(page);
+  // const changePage = (page) => currentPage(page);
   return (
     <div>
-      <Nav currentPage={currentPage} changePage={changePage} />
+      <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <Header />
       {renderPage()}
       <Footer />

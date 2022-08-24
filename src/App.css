@@ -1,0 +1,19 @@
+/* style each html snippet from component js files */
+
+@media (max-width: 576px) {
+  /* header, navbar links, hero image or title image */
+}
+
+.navbar {
+  background: #58a4f6;
+  height: 60px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 3;
+}
