@@ -1,14 +1,14 @@
 import '../App.css';
 import React from 'react';
 
-function Projects() {
+function Blog() {
   return (
 //return projects page... maybe move to homepage as a preview? big obvious link?
 <div>
-  projects
+  blog
 </div>
   );
 }
 
 
-export default Projects;
+export default Blog;

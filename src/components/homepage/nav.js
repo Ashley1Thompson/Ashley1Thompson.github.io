@@ -1,21 +1,28 @@
 import '../../App.css';
 import React from 'react';
+import { Container } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 
-function Nav(props) {
+
+function Navigation() {
   return (
 //return navbar html
-    <div>  
-      <nav className="navbar">
-      <a onClick={() => props.setCurrentPage("aboutMe")} href="/">about me</a>
-      <a onClick={() => props.setCurrentPage("projects")}href="/">projects</a>
-      <a onClick={() => props.setCurrentPage("resume")}href="/">resume</a>
-      <a onClick={() => props.setCurrentPage("contact")}href="/">contact</a>
-          
-      </nav>
-    </div>  
+    <Navbar sticky='top' id='navbar'>  
+      <Container>
+        <Nav className="me-auto">
+            <NavLink to="/aboutMe">about me </NavLink>
+            <NavLink to="/projects">projects </NavLink>
+            <NavLink to="/contact">contact </NavLink>
+            <NavLink to="/blog">blog </NavLink>
+            <NavLink to="/resume">resume</NavLink>
+        </Nav>
+      </Container>
+    </Navbar>  
   );
 }
 
 
-export default Nav;
+export default Navigation;

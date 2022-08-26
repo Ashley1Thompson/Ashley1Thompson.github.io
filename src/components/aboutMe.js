@@ -5,7 +5,7 @@ function AboutMe() {
   return (
 //return about me page html
 <div>
-
+ about me
 </div>
   );
 }

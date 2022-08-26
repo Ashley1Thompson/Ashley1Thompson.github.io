@@ -1,43 +1,34 @@
-// import necessary components
-import React, {useState} from 'react';
+// import necessary elements
+// import React, {useState} from 'react';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
 import AboutMe from "./components/aboutMe";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Resume from "./components/resume";
-import Nav from "./components/homepage/nav";
+import Blog from './components/blog';
+import Navigation from "./components/homepage/nav";
 import Header from "./components/homepage/header";
 import Footer from "./components/homepage/footer";
 
 //
 function App() {
-  const [currentPage, setCurrentPage,] = useState('aboutMe')
+    return (
+      <div className="App">
+        <Header />
+        <Navigation/>
+        <Routes>
+            <Route path ='/projects' element={<Projects />}/>
+            <Route path ='/blog' element={<Blog />}/>
+            <Route path ='/resume' element={<Resume />}/>
+            <Route path ='/contact' element={<Contact />}/>
+            <Route path ='/aboutMe' element={<AboutMe />}/>
+        </Routes>
+        <Footer />
+      </div>
 
-  const renderPage = () => {
-    switch(currentPage) {
-    case 'aboutMe':
-      return <AboutMe />    
-    case 'projects':
-      debugger   
-      return <Projects /> 
-    case 'resume':
-      return <Resume />    
-    case 'contact':
-      return <Contact /> 
-    default: 
-      return <AboutMe />    
-    }
+    );
   }; 
   
-  // const changePage = (page) => currentPage(page);
-  return (
-    <div>
-      <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <Header />
-      {renderPage()}
-      <Footer />
-    </div>
-  );
-}
 
 export default App;

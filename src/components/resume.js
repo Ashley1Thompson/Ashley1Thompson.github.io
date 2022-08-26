@@ -5,7 +5,7 @@ function Resume() {
   return (
 //return resume html. make this a pdf probably
 <div>
-
+ resume
 </div>
   );
 }
