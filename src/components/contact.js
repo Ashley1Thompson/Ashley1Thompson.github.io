@@ -1,8 +1,9 @@
 import '../App.css';
 import React from 'react';
-// import Form from 'react-bootstrap/Form'
 import { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
+import Col from 'react-bootstrap/Col';
+// import { Form } from 'react-bootstrap';
 
 function Contact() {
   //return contact form page html
@@ -20,7 +21,7 @@ function Contact() {
 
       if (inputType === 'email') {
         setEmail(inputValue);
-      } else if (inputType === 'userName') {
+      } else if (inputType === 'fullName') {
         setFullName(inputValue);
       } else {
         setMessage(inputValue);
@@ -29,14 +30,14 @@ function Contact() {
 
 
     const handleFormSubmit = (e) => {
-      // Preventing the default behavior of the form submit (which is to refresh the page)
+      // Preventing the default behavior of the form
       e.preventDefault();
 
       if(!fullName || !email || !message) {
         setErrorMessage("Please fill in the empty field")
         return;
       }
-      //check to see if the email is not valid. If so we set an error message to be displayed on the page.
+      //validate email, err if not valid
       if (!validateEmail(email)) {
         setErrorMessage('Please enter a vaslid email');
         //exit out of this code block if something is wrong so that the user can correct it
@@ -51,39 +52,49 @@ function Contact() {
     };
 
     return (
-        <div>
-        <p idName="contactGreeting">Hello there! Please use the form below to contact me about work, collaboration, or to send me pictures of your dog.</p>
-        <form className="form">
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="email"
-          />
-          <input
-            value={fullName}
-            name="fullName"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="full name"
-          />
-          <input
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="type your message here"
-          />
+      <>
         
-          <button type="button" onClick={handleFormSubmit}>Submit</button>
-        </form>
-        {errorMessage && (
           <div>
-            <p className="error-text">Oops! Something went wrong. Please try again.</p>
-          </div>
-        )}
-        </div>
+          <p className="contactGreeting">Hello there! Please use the form below to contact me about work, collaboration, or to send me pictures of your dog 🐕</p>
+          <form className="contactForm">
+          <Col>
+            <input
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="email"
+              placeholder="email"
+            />
+          </Col>
+          <Col>
+            <input
+              value={fullName}
+              name="fullName"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="full name"
+            />
+          </Col>
+          <Col> 
+            <input
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="type your message here"
+              
+            />
+          </Col>  
+          
+            <button className="submitContact" type="button" onClick={handleFormSubmit}>Submit</button>
+          </form>
+          {errorMessage && (
+            <div>
+              <p className="errorText">Oops! Something went wrong. Please try again.</p>
+            </div>
+          )}
+          </div>  
+      </>   
     );
   }
 // }
