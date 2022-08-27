@@ -91,6 +91,35 @@ body {
   align-self: center;
 }
 
+.header {
+  color: white;
+  font-size: xx-large;
+  font-family: 'Aleo';
+  text-align: center;
+}
+
+.container1 {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.description {
+  color: white;
+  font-size: medium;
+  font-family: 'Source Code Pro';
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.project a {
+  color: lavender;
+  font-size: larger;
+  font-family: 'Aleo';
+}
+
 .attributions {
   font-size: 6px;
 }
