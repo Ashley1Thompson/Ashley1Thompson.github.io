@@ -65,6 +65,24 @@ body {
   font-size: larger;
 }
 
+.aboutHeader {
+  color: white;
+  font-size: xx-large;
+  font-family: 'Antic Slab';
+  text-align: center;
+}
+
+.p1 {
+  color: white;
+  font-size: large;
+  font-family: 'Nanum Gothic Coding';
+  text-align: center;
+}
+
+.img1 {
+  align-self: center;
+}
+
 .attributions {
   font-size: 6px;
 }
