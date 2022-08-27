@@ -43,7 +43,7 @@ function Contact() {
         //exit out of this code block if something is wrong so that the user can correct it
         return;
       }
-      setErrorMessage(`Thanks, {fullName} for your message! I will be in contact soon.`);
+      alert(`Thanks for your message! I will be in contact soon.`);
 
       // Clear out the input after a successful registration.
       setMessage('');

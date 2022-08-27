@@ -14,8 +14,8 @@ body {
 #hero {
   background-image: url('./assets/images/im_ashley.png');
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed ;
+  background-size: contain;
+  background-attachment: scroll ;
   height: 17rem;
   width: 100%;
   padding-bottom: 10px;
@@ -77,6 +77,14 @@ body {
   font-size: large;
   font-family: 'Nanum Gothic Coding';
   text-align: center;
+}
+
+.comingSoon {
+  color: white;
+  font-size: 50px;
+  font-family: 'Aleo';
+  text-align: center;
+
 }
 
 .img1 {
