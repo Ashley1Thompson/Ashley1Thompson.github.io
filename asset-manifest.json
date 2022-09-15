@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d976780e.css",
+    "main.js": "/static/js/main.76d57d79.js",
+    "static/media/rerunnew.png": "/static/media/rerunnew.9d5ac1f2f8c3b7dcb2d7.png",
+    "static/media/touchgrassnew.png": "/static/media/touchgrassnew.03547b557b2c7ff5addb.png",
+    "static/media/lofiroom.jpg": "/static/media/lofiroom.1c7fee4ff9021357822d.jpg",
+    "static/media/raymlem.jpg": "/static/media/raymlem.7a345a3dc46ccb6886b7.jpg",
+    "static/media/hiking.jpg": "/static/media/hiking.261eae7e6101249df8a4.jpg",
+    "static/media/sittingonrock.jpg": "/static/media/sittingonrock.22a7d6abf3ec0fba17e6.jpg",
+    "static/media/fieldwork.jpg": "/static/media/fieldwork.e54485f18a260e201b31.jpg",
+    "static/media/puppylove.jpg": "/static/media/puppylove.ec86baa0546b80cde061.jpg",
+    "static/media/shot.jpg": "/static/media/shot.54dc3f01c22926cbe489.jpg",
+    "static/media/archercarrot.jpg": "/static/media/archercarrot.aae94e60df1fb969b66b.jpg",
+    "static/media/project3.jpg": "/static/media/project3.42ac0add32bd56a84890.jpg",
+    "static/media/im_ashley.png": "/static/media/im_ashley.863b264285b3139ed880.png",
+    "static/media/dev-resume2022.pdf": "/static/media/dev-resume2022.06e9500516b770beaaca.pdf",
+    "index.html": "/index.html",
+    "main.d976780e.css.map": "/static/css/main.d976780e.css.map",
+    "main.76d57d79.js.map": "/static/js/main.76d57d79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d976780e.css",
+    "static/js/main.76d57d79.js"
+  ]
+}
