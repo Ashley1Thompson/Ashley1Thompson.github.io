@@ -72,13 +72,13 @@ function Projects() {
             </div>
           </article>
           <article class="projContainer">
-            <a class="projectImgLink" href="#" target="_blank" rel="noreferrer">
+            <a class="projectImgLink" href="https://smallchange-app.herokuapp.com/" target="_blank" rel="noreferrer">
             <img 
                 className='img1'
                 src={Proj3} 
                 width={250} 
                 height={250} 
-                alt="laptop with coffee"
+                alt="Small Change - your reminder to be kinder"
               />;
             </a>
             <div class="project">
