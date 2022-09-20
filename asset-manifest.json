@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d976780e.css",
-    "main.js": "/static/js/main.76d57d79.js",
+    "main.js": "/static/js/main.48911660.js",
     "static/media/rerunnew.png": "/static/media/rerunnew.9d5ac1f2f8c3b7dcb2d7.png",
     "static/media/touchgrassnew.png": "/static/media/touchgrassnew.03547b557b2c7ff5addb.png",
     "static/media/lofiroom.jpg": "/static/media/lofiroom.1c7fee4ff9021357822d.jpg",
@@ -12,15 +12,15 @@
     "static/media/puppylove.jpg": "/static/media/puppylove.ec86baa0546b80cde061.jpg",
     "static/media/shot.jpg": "/static/media/shot.54dc3f01c22926cbe489.jpg",
     "static/media/archercarrot.jpg": "/static/media/archercarrot.aae94e60df1fb969b66b.jpg",
-    "static/media/project3.jpg": "/static/media/project3.42ac0add32bd56a84890.jpg",
     "static/media/im_ashley.png": "/static/media/im_ashley.863b264285b3139ed880.png",
     "static/media/dev-resume2022.pdf": "/static/media/dev-resume2022.06e9500516b770beaaca.pdf",
+    "static/media/smallchange.png": "/static/media/smallchange.d6eaee853787a4c0c2e7.png",
     "index.html": "/index.html",
     "main.d976780e.css.map": "/static/css/main.d976780e.css.map",
-    "main.76d57d79.js.map": "/static/js/main.76d57d79.js.map"
+    "main.48911660.js.map": "/static/js/main.48911660.js.map"
   },
   "entrypoints": [
     "static/css/main.d976780e.css",
-    "static/js/main.76d57d79.js"
+    "static/js/main.48911660.js"
   ]
 }
