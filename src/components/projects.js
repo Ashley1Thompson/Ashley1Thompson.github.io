@@ -2,7 +2,7 @@ import '../App.css';
 import React from 'react';
 import Proj1 from '../assets/images/touchgrassnew.png';
 import Proj2 from '../assets/images/rerunnew.png'
-import Proj3 from '../assets/images/smallchange.jpg'
+import Proj3 from '../assets/images/smallchange.png'
 
 function Projects() {
   return (
