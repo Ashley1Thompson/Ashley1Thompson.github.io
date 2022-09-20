@@ -2,7 +2,7 @@ import '../App.css';
 import React from 'react';
 import Proj1 from '../assets/images/touchgrassnew.png';
 import Proj2 from '../assets/images/rerunnew.png'
-import Proj3 from '../assets/images/project3.jpg'
+import Proj3 from '../assets/images/smallchange.jpg'
 
 function Projects() {
   return (
@@ -83,13 +83,15 @@ function Projects() {
             </a>
             <div class="project">
               <h1 class="title">
-                <a href="#" target="_blank" rel="noreferrer">
-                  Project 3 Coming Soon!
+                <a href="https://github.com/Ashley1Thompson/small-change" 
+                   target="_blank" 
+                   rel="noreferrer">
+                  Small Change
                 </a>
               </h1>
 
               <div class="description">
-              Another epic project is in the works!
+              An app that encourages users to commit to one small act of kindness each and every day, and inspire others to as well.
               </div>
             </div>
           </article>
