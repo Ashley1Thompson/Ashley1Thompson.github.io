@@ -29,7 +29,11 @@ function AboutMe() {
           alt="woman sitting on rock outdoors"
         />;
     </div>
-    <div>
+    <div style={{
+        display: 'flex',
+        padding: '15px',
+        justifyContent: 'center',
+        }}>
       <p className='p1'> As you remember from my header image, I'm Ashley. I am a Full-stack software engineer, dog enthusiast, woman of science, and mother of two.</p>
     </div>
     <div style={{
@@ -44,10 +48,16 @@ function AboutMe() {
           height={250} 
           alt="three people using a sifter in the field"
         />;
+
+        
     </div>
-    <div>
-      <p className='p1'> I began my higher education at Gainesville State College where I earned an A.A. in Anthropology. I met an amazing and inspirational mentor and life-long friend who introduced me to my first love: Archaeology.
-        After transferring to UGA, I completed my B.A in Anthropology with a minor in Geology and a certificate in Archaeology. It was official. I was an "ologist". I spent the next decade digging in the dirt, just as nature intended.
+    <div style={{
+        display: 'flex',
+        padding: '15px',
+        justifyContent: 'center',
+        }}>
+      <p className='p1'> I began my higher education at Gainesville State College where I earned an A.A. in Anthropology. I met an amazing, inspirational mentor and life-long friend who introduced me to my first love: Archaeology.
+        <br/> <br/> After transferring to UGA, I completed my B.A in Anthropology with a minor in Geology and a certificate in Archaeology. It was official. I was an "ologist". I spent the next decade digging in the dirt, just as nature intended.
         </p>
     </div>
     <div style={{
@@ -63,7 +73,11 @@ function AboutMe() {
           alt="red goldendoodle licking her nose"
         />;
     </div>
-    <div>
+    <div style={{
+        display: 'flex',
+        padding: '15px',
+        justifyContent: 'center',
+        }}>
       <p className='p1'> During my post-college years I did what one does and got a dog to keep me company. This is Aurelia, my elderly goldendoodle and best friend. </p>
     </div>
     <div style={{
@@ -79,7 +93,11 @@ function AboutMe() {
           alt="woman standing with two children on mountain overlook"
         />;
     </div>
-    <div>
+    <div style={{
+        display: 'flex',
+        padding: '15px',
+        justifyContent: 'center',
+        }}>
       <p className='p1'> At some point in all of the madness, I met my husband and we now have two awesome kids who accompany us on our adventures. </p>
     </div>
     <div style={{
@@ -95,8 +113,12 @@ function AboutMe() {
           alt="cream goldendoodle with toy carrot"
         />;
     </div>
-    <div>
-      <p className='p1'> we got another dog to match our other one; Archer the goldendoodle. </p>
+    <div style={{
+        display: 'flex',
+        padding: '15px',
+        justifyContent: 'center',
+        }}>
+      <p className='p1'> we got another dog to match our first one; Archer the goldendoodle. </p>
     </div>
     <div style={{
         display: 'flex',
@@ -111,7 +133,11 @@ function AboutMe() {
           alt="woman in PPE getting vaccinated"
         />;
     </div>
-    <div>
+    <div style={{
+        display: 'flex',
+        padding: '15px',
+        justifyContent: 'center',
+        }}>
       <p className='p1'> When the pandemic hit, I was transitioning out of archaeology, and I took a role as a Lifestyle Director in long-term care. This was the most emotionally challenging role, professionally, that I've ever had. We endured so much, learned so much, and will never take another day for granted. </p>
     </div>
     <div style={{
@@ -127,11 +153,19 @@ function AboutMe() {
           alt="woman with young puppy on chest"
         />;
     </div>
-    <div>
+    <div style={{
+        display: 'flex',
+        padding: '15px',
+        justifyContent: 'center',
+        }}>
       <p className='p1'> After leaving the healthcare sector when COVID started to settle down in 2021, I was lost. I had left my dream career, and had been thoroughly traumatized by my experience in LTC. I needed a new dream. Through the encouragement of my family and friends, I joined a cohort at the Georgia Tech Full-Stack Developer Bootcamp. And now I'm here, with a new passion, a new direction, and something to look forward to every day. </p>
     </div>
-    <div 
-    className='p1'> I do still snuggle puppies whenever possible. That will never change.
+    <div style={{
+        display: 'flex',
+        padding: '15px',
+        justifyContent: 'center',
+        }}> 
+        <p className='p1'>I do still snuggle puppies whenever possible, because that will never change. </p>
     </div>
     
 </>  
