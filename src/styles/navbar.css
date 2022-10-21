@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}
+
+.navbar {
+  background-color: #f6588794;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.navbar a {
+  display: flex row;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Source Code Pro' ;
+  font-size: 1rem;
+  text-decoration: none;
+  margin: 1px;
+  line-height: 3;
+}
