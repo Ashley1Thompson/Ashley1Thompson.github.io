@@ -1,4 +1,4 @@
-import '../../App.css';
+import '../../styles/App.css';
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Navbar } from 'react-bootstrap';
@@ -26,3 +26,4 @@ function Navigation() {
 
 
 export default Navigation;
+
