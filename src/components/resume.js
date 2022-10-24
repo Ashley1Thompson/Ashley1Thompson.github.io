@@ -1,7 +1,7 @@
 import '../styles/App.css';
 import React from 'react'
 import {Container, Header, Grid,} from 'semantic-ui-react'
-// import { Document } from 'react-pdf/dist/entry.webpack';
+// import { Document, Page } from 'react-pdf/dist/entry.webpack';
 import { Page, Document } from 'react-pdf';
 import myResume from '../assets/pdf/dev-resume2022.pdf'
 

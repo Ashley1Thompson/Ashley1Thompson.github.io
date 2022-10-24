@@ -23,9 +23,9 @@ export const Contact = () => {
   return (
 <>
     <div>
-    <p className="contactGreeting">
-    Hello there! Use the form below to drop me a line about collaboration or work opportunities, or to send me pictures of your dog 🐕 
-    </p>
+      <p className="contactGreeting">
+      Hello there! Use the form below to drop me a line about collaboration or work opportunities, or to send me pictures of your dog 🐕 
+      </p>
     </div>
     {/* //name params MUST MATCH those in the template on emailJS site or it won't return that information (ie name, return email) in the email it sends. */}
     <form className="contactForm" ref={form} onSubmit={sendEmail}>

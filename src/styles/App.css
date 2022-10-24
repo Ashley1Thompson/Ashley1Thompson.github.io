@@ -77,11 +77,15 @@ textarea {
   margin: 5px;
 }
 
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 400px) {
 .contactForm {
   color: white;
   display: flex;
-  justify-content: center;
-}
+  flex-direction: column;
+ }
+}  
+
 input:focus {
   /* box-shadow: 0 0 0 0.25rem rgba(2, 33, 58, 0.25) */
   border: 5px solid rgb(237, 191, 237);
@@ -98,11 +102,13 @@ textarea:focus {
   background-color: rgb(241, 165, 113);
   color: white;
   font-family: "source code pro";
+  width: 75px;
+  align-self: center;
 }
 
 
 .submitBtn:hover {
-  size: 110%;
+  transform: scale(1.1);
 }
 
 .errorText {

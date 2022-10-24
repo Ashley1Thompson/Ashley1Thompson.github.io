@@ -17,7 +17,7 @@ function Navigation() {
             <NavLink to="/projects">projects | </NavLink>
             <NavLink to="/contact">contact | </NavLink>
             <NavLink to="/blog">blog | </NavLink>
-            <NavLink to="/resume">resume</NavLink>
+            <NavLink to={{pathname: "https://docs.google.com/document/d/1fFdcamhyiypfbkY_ZQD2IQCbhok4YCrWgL2YpDOSUXo/edit?usp=sharing"}} target="_blank">resume</NavLink>
         </Nav>
       </Container>
     </Navbar>  
