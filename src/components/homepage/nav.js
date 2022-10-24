@@ -13,10 +13,10 @@ function Navigation() {
     <Navbar sticky='top' id='navbar'>  
       <Container>
         <Nav className="me-auto">
-            <NavLink to="/aboutMe">about me </NavLink>
-            <NavLink to="/projects">projects </NavLink>
-            <NavLink to="/contact">contact </NavLink>
-            <NavLink to="/blog">blog </NavLink>
+            <NavLink to="/aboutMe">about me | </NavLink>
+            <NavLink to="/projects">projects | </NavLink>
+            <NavLink to="/contact">contact | </NavLink>
+            <NavLink to="/blog">blog | </NavLink>
             <NavLink to="/resume">resume</NavLink>
         </Nav>
       </Container>
