@@ -1,8 +1,5 @@
 /* style each html snippet from component js files */
 
-/* @media (max-width: 576px) {
-  header, navbar links, hero image or title image
-} */
 
 body {
   background-image: url('../assets/images/lofiroom.jpg');
@@ -11,14 +8,30 @@ body {
   background-attachment: fixed ;
 }
 
+/* For devices smaller than 400px: */
+#hero {
+  background-image: url('../assets/images/im-ashley-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: scroll ;
+  background-position: 50%;
+  width: 350px;
+  height: 100px;
+  padding: 10px;
+}
+
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 400px) {
 #hero {
   background-image: url('../assets/images/im_ashley.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: scroll ;
+  background-position: 50%;
   height: 17rem;
   width: 100%;
-  padding-bottom: 10px;
+  padding: 10px;
+  } 
 }
 
 .navbar {
@@ -41,14 +54,27 @@ body {
 
 /* styling for contatct form */
 .contactGreeting {
+  /* width: 75%; */
   color: white;
   font-size: x-large;
   font-family: 'Antic slab';
   text-align: center;
 }
 
-.submitContact {
-  background-color: blueviolet;
+input {
+  background-color: white;
+  margin: 10px;
+}
+
+textarea {
+  background-color: white;
+  margin: 10px;
+}
+
+.formLabel {
+  font-family: "source code pro";
+  font-weight: bolder;
+  margin: 5px;
 }
 
 .contactForm {
@@ -56,10 +82,27 @@ body {
   display: flex;
   justify-content: center;
 }
-
-#input:focus {
+input:focus {
   /* box-shadow: 0 0 0 0.25rem rgba(2, 33, 58, 0.25) */
-  border: 20px solid purple;
+  border: 5px solid rgb(237, 191, 237);
+  background-color: lightsteelblue;
+}
+
+textarea:focus {
+  border: 5px solid rgb(237, 191, 237);
+  background-color: lightsteelblue;
+}
+
+.submitBtn {
+  margin: 10px;
+  background-color: rgb(241, 165, 113);
+  color: white;
+  font-family: "source code pro";
+}
+
+
+.submitBtn:hover {
+  size: 110%;
 }
 
 .errorText {
