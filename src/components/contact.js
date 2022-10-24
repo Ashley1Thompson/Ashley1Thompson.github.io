@@ -2,7 +2,6 @@ import '../styles/App.css';
 import React from 'react';
 import { useRef } from 'react';
 import { validateEmail } from '../utils/helpers';
-import Col from 'react-bootstrap/Col';
 import emailjs from '@emailjs/browser';
 // import { Form } from 'react-bootstrap';
 
@@ -101,9 +100,10 @@ import emailjs from '@emailjs/browser';
 // // }
 
 
-export const ContactUs = () => {
+export const Contact = () => {
   const form = useRef();
 
+  // prevent default behavior of form to retain user input in the fields
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -128,4 +128,4 @@ export const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default Contact;
