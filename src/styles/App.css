@@ -143,8 +143,9 @@ textarea:focus {
 /* Styling for Blog Page */
 
 .comingSoon {
+  display: flex;
   color: white;
-  font-size: 50px;
+  font-size: 2rem;
   font-family: 'Aleo';
   text-align: center;
 }
