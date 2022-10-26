@@ -16,7 +16,7 @@ function Projects() {
     <Row>
       <Col className="projCol">
         <Card className="projectCard " style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={Proj3} />          
+          <Card.Img id="projImg" variant="top" src={Proj3} />          
           <Card.Body>
             <Card.Title className="projectTitle">Small Change</Card.Title>
             <Card.Text className="description">

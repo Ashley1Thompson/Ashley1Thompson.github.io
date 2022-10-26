@@ -2,8 +2,10 @@ import '../styles/App.css';
 import React from 'react'
 import {Container, Header, Grid,} from 'semantic-ui-react'
 // import { Document, Page } from 'react-pdf/dist/entry.webpack';
-import { Page, Document } from 'react-pdf';
+import { Page, Document, pdfjs } from 'react-pdf';
 import myResume from '../assets/pdf/dev-resume2022.pdf'
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const Resume = () => {
   return(

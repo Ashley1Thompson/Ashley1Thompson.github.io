@@ -8,7 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 import AboutMe from "./components/aboutMe";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
-import Resume from "./components/resume";
+// import Resume from "./components/resume";
 import Blog from './components/blog';
 import Navigation from "./components/homepage/nav";
 import Header from "./components/homepage/header";
@@ -24,7 +24,7 @@ function App() {
             <Route path='/' element={<AboutMe />}/>
             <Route path ='/projects' element={<Projects />}/>
             <Route path ='/blog' element={<Blog />}/>
-            <Route path ='/resume' element={<Resume />}/>
+            {/* <Route path ='/resume' element={<Resume />}/> */}
             <Route path ='/contact' element={<Contact />}/>
             <Route path ='/aboutMe' element={<AboutMe />}/>
         </Routes>
