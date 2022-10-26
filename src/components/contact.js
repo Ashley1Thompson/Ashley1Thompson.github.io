@@ -9,16 +9,18 @@ export const Contact = () => {
 
   // prevent default behavior of form to retain user input in the fields
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault(); 
 
   //parameters for emailJS from my service and template setup info
     emailjs.sendForm('service_a19t1c5', 'template_xbtj6mj', form.current, 'jCNgFEcrKqO14_8pH')
       .then((result) => {
+        alert('Thanks for reaching out!')
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
-  };
+};
+
 
   return (
 <>

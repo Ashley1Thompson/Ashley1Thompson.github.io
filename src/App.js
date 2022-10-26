@@ -1,6 +1,9 @@
 // import necessary elements
 // import React, {useState} from 'react';
 import './styles/App.css';
+// import './styles/queries.css'
+// import '../../../node_modules/bootstrap/dist/js/bootstrap'
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import AboutMe from "./components/aboutMe";
 import Projects from "./components/projects";

@@ -33,7 +33,8 @@ body {
   padding: 10px;
   } 
 }
-
+ 
+/*styling for navbar*/
 .navbar {
   background-color: #f6588794;
   height: 60px;
@@ -52,70 +53,7 @@ body {
   line-height: 3;
 }
 
-/* styling for contatct form */
-.contactGreeting {
-  /* width: 75%; */
-  color: white;
-  font-size: x-large;
-  font-family: 'Antic slab';
-  text-align: center;
-}
 
-input {
-  background-color: white;
-  margin: 10px;
-}
-
-textarea {
-  background-color: white;
-  margin: 10px;
-}
-
-.formLabel {
-  font-family: "source code pro";
-  font-weight: bolder;
-  margin: 5px;
-}
-
-/* For devices 400px and larger: */
-@media only screen and (min-device-width: 400px) {
-.contactForm {
-  color: white;
-  display: flex;
-  flex-direction: column;
- }
-}  
-
-input:focus {
-  /* box-shadow: 0 0 0 0.25rem rgba(2, 33, 58, 0.25) */
-  border: 3px solid rgb(237, 191, 237);
-  background-color: lightsteelblue;
-}
-
-textarea:focus {
-  border: 3px solid rgb(237, 191, 237);
-  background-color: lightsteelblue;
-}
-
-.submitBtn {
-  margin: 10px;
-  background-color: rgb(241, 165, 113);
-  color: white;
-  font-family: "source code pro";
-  width: 80px;
-  align-self: center;
-}
-
-
-.submitBtn:hover {
-  transform: scale(1.1);
-  border: 1px solid white;
-}
-
-.errorText {
-  color: white;
-  font-size: larger;
-}
 
 /* styling for about page */
 
@@ -139,15 +77,6 @@ textarea:focus {
 .img1 {
   align-self: center;
   
-}
-/* Styling for Blog Page */
-
-.comingSoon {
-  display: flex;
-  color: white;
-  font-size: 2rem;
-  font-family: 'Aleo';
-  text-align: center;
 }
 
 /* styling for projects page */
@@ -211,8 +140,104 @@ textarea:focus {
   border: 1px solid white;
 }
 
+/* styling for contatct form */
+.contactGreeting {
+  /* width: 75%; */
+  color: white;
+  font-size: x-large;
+  font-family: 'Antic slab';
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+input {
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+textarea {
+  background-color: white;
+  margin: 10px;
+  height: 80px;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px black;
+}
+
+.formLabel {
+  font-family: "source code pro";
+  font-weight: bolder;
+  margin: 5px;
+}
+
+/* For devices 400px and smaller: */
+.contactForm {
+  color: white;
+  display: flex;
+  flex-direction: column;
+ }
+
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 400px) {
+.contactForm {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+ }
+}  
+
+input:focus {
+  /* box-shadow: 0 0 0 0.25rem rgba(2, 33, 58, 0.25) */
+  border: 3px solid rgb(237, 191, 237);
+  background-color: lightsteelblue;
+}
+
+textarea:focus {
+  border: 3px solid rgb(237, 191, 237);
+  background-color: lightsteelblue;
+}
+
+.submitBtn {
+  margin: 10px;
+  background-color: rgb(241, 165, 113);
+  color: white;
+  font-family: "source code pro";
+  width: 80px;
+  align-self: center;
+}
+
+.submitBtn:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+}
+
+.errorText {
+  color: white;
+  font-size: larger;
+}
+
+/* Styling for Blog Page */
+
+.comingSoon {
+  /* display: flex; */
+  color: white;
+  font-size: 2rem;
+  font-family: 'Aleo';
+  text-align: center;
+}
+
+/*styling for footer
+
+
 /* styling for attributions */
 
 .attributions {
   font-size: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
