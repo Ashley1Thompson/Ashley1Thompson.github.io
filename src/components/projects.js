@@ -1,4 +1,3 @@
-import '../styles/App.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
@@ -8,6 +7,7 @@ import React from 'react';
 import Proj1 from '../assets/images/touchgrassnew.png';
 import Proj2 from '../assets/images/rerunnew.png'
 import Proj3 from '../assets/images/smallchange.png'
+import '../styles/App.css';
 
 function Projects() {
   return (
@@ -22,7 +22,7 @@ function Projects() {
             <Card.Text className="description">
             An app that encourages users to commit to one small act of kindness each and every day, and inspire others to as well.
             </Card.Text>
-            <Button href="https://smallchange-app.herokuapp.com/" className="projButton" >Check it out!</Button>
+            <Button href="https://smallchange-app.herokuapp.com/" id="projButton" >Check it out!</Button>
           </Card.Body>
         </Card>
       </Col>
@@ -34,7 +34,7 @@ function Projects() {
             <Card.Text className="description">
             A fast-paced, heart-racing choose-your-own-adventure game! Login capability, so that users can compete for the high score on the leaderboard.
             </Card.Text>
-            <Button href="https://rerun-game.herokuapp.com/" className="projButton" >Check it out!</Button>
+            <Button href="https://rerun-game.herokuapp.com/" id="projButton" >Check it out!</Button>
           </Card.Body>
         </Card>
       </Col>
@@ -46,7 +46,7 @@ function Projects() {
             <Card.Text className="description">
             A web-based app that allows users to search their target state for National Parks. The search returns a list with links to the parks' websites, so users can plan ahead.
             </Card.Text>
-            <Button href=" https://ashley1thompson.github.io/touch-grass-app-national-park-finder/" className="projButton" >Check it out!</Button>
+            <Button href=" https://ashley1thompson.github.io/touch-grass-app-national-park-finder/" id="projButton" >Check it out!</Button>
           </Card.Body>
         </Card>
       </Col>
