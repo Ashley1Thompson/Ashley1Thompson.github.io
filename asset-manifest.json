@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef7f244a.css",
-    "main.js": "/static/js/main.2bb5b2d5.js",
+    "main.css": "/static/css/main.0d8f691f.css",
+    "main.js": "/static/js/main.bee836dc.js",
     "static/media/rerunnew.png": "/static/media/rerunnew.9d5ac1f2f8c3b7dcb2d7.png",
     "static/media/touchgrassnew.png": "/static/media/touchgrassnew.03547b557b2c7ff5addb.png",
     "static/media/lofiroom.jpg": "/static/media/lofiroom.1c7fee4ff9021357822d.jpg",
@@ -16,11 +16,11 @@
     "static/media/smallchange.png": "/static/media/smallchange.d6eaee853787a4c0c2e7.png",
     "static/media/im-ashley-mobile.png": "/static/media/im-ashley-mobile.8094ccdcbe0b3ed1aa57.png",
     "index.html": "/index.html",
-    "main.ef7f244a.css.map": "/static/css/main.ef7f244a.css.map",
-    "main.2bb5b2d5.js.map": "/static/js/main.2bb5b2d5.js.map"
+    "main.0d8f691f.css.map": "/static/css/main.0d8f691f.css.map",
+    "main.bee836dc.js.map": "/static/js/main.bee836dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef7f244a.css",
-    "static/js/main.2bb5b2d5.js"
+    "static/css/main.0d8f691f.css",
+    "static/js/main.bee836dc.js"
   ]
 }
