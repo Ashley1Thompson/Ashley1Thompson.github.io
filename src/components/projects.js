@@ -15,9 +15,9 @@ function Projects() {
 <Container fluid="sm" className="projContainer">
     <Row>
       <Col className="projCol">
-        <Card className="projectCard " style={{ width: '18rem' }}>
+        <Card className="projectCard " style={{ width: '18rem', backgroundColor: 'transparent', borderColor: 'white'  }}>
           <Card.Img id="projImg" variant="top" src={Proj3} />          
-          <Card.Body>
+          <Card.Body >
             <Card.Title className="projectTitle">Small Change</Card.Title>
             <Card.Text className="description">
             An app that encourages users to commit to one small act of kindness each and every day, and inspire others to as well.
@@ -27,7 +27,7 @@ function Projects() {
         </Card>
       </Col>
       <Col className="projCol">
-        <Card className="projectCard " style={{ width: '18rem' }}>
+        <Card className="projectCard " style={{ width: '18rem', backgroundColor: 'transparent', borderColor: 'white' }}>
           <Card.Img id="projImg" variant="top" src={Proj2} />
           <Card.Body>
             <Card.Title className="projectTitle">RERUN</Card.Title>
@@ -39,10 +39,10 @@ function Projects() {
         </Card>
       </Col>
       <Col className="projCol">
-        <Card className="projectCard " style={{ width: '18rem' }}>
+        <Card className="projectCard " style={{ width: '18rem', backgroundColor: 'transparent', borderColor: 'white'  }}>
           <Card.Img id="projImg" variant="top" src={Proj1} />
           <Card.Body>
-            <Card.Title className="projectTitle">Touch Grass App</Card.Title>
+            <Card.Title className="projectTitle" style={{ fontFamily: 'Source code pro', fontSize: 'large'}}>Touch Grass App</Card.Title>
             <Card.Text className="description">
             A web-based app that allows users to search their target state for National Parks. The search returns a list with links to the parks' websites, so users can plan ahead.
             </Card.Text>
