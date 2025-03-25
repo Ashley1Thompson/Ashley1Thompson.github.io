@@ -4,7 +4,7 @@ import React from 'react';
 // import { Container } from 'react-bootstrap';
 import { Navbar, Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import Burger from '../../assets/images/burger-icon.png'
+//import Burger from '../../assets/images/burger-icon.png'
 
 function Navigation() {
   return (

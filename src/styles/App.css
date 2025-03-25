@@ -81,12 +81,18 @@ body {
   padding: 20px;
 }
 
+.aboutCard {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  }
+
 .p1 {
   width: 25rem;
   color: white;
   font-size: large;
   font-family: 'Nanum Gothic Coding';
-  text-align: center;
+  text-align: left;
 }
 
 .img1 {
