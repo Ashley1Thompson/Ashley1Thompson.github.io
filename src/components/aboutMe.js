@@ -66,7 +66,7 @@ function AboutMe() {
         />;
     </div>
     <div className='aboutCard'>
-      <p className='p1'> At some point in all of the madness, I met my husband and we now have two awesome kids who accompany us on our adventures. </p>
+      <p className='p1'> At some point in all of the madness, I started a family and I now have two awesome kids who accompany me on my adventures. </p>
     </div>
     <div className='aboutCard'>
         <img 
@@ -78,7 +78,7 @@ function AboutMe() {
         />;
     </div>
     <div className='aboutCard'>
-      <p className='p1'> we got another dog to match our first one; Archer the goldendoodle. </p>
+      <p className='p1'> I got another dog to match my first one; Archer the goldendoodle. </p>
     </div>
     <div className='aboutCard'>
         <img 
@@ -90,7 +90,7 @@ function AboutMe() {
         />;
     </div>
     <div className='aboutCard'>
-      <p className='p1'> When the pandemic hit, I was transitioning out of archaeology, and I took a role as a Lifestyle Director in long-term care. This was the most emotionally challenging role, professionally, that I've ever had. We endured so much, learned so much, and will never take another day for granted. </p>
+      <p className='p1'> When the pandemic hit, I was transitioning out of archaeology and I took a role as a Lifestyle Director in a long-term care facility. This was the most emotionally challenging role, professionally, that I've ever had. We endured so much, learned so much, and will never take another day for granted. </p>
     </div>
     <div className='aboutCard'>
         <img 
@@ -102,7 +102,7 @@ function AboutMe() {
         />;
     </div>
     <div className='aboutCard'>
-      <p className='p1'> After leaving the healthcare sector when COVID started to settle down in 2021, I was lost. I had left my dream career, and had been thoroughly traumatized by my experience in LTC. I needed a new dream. Through the encouragement of my family and friends, I joined a cohort at the Georgia Tech Full-Stack Developer Bootcamp. And now I'm here, with a new passion, a new direction, and something to look forward to every day. </p>
+      <p className='p1'> After leaving the healthcare sector when COVID started to settle down in 2021, I was lost. I had left my dream career, and had been thoroughly traumatized by my experience in Long Term Care during an incredibly deadly pandemic. I needed a new dream. Through the encouragement of my family and friends I joined a cohort at the Georgia Tech Full-Stack Developer Bootcamp. And now I'm here! I have a new passion, a new direction, and something to look forward to every day. </p>
     </div>
     <div className='aboutCard'> 
         <p className='p1'>I do still snuggle puppies whenever possible, because that will never change. </p>
