@@ -4,16 +4,16 @@
   }
 } */
 
-.navbar {
-  background-color: #f6588794;
-  height: 60px;
+.navBar {
+  background-color: #f6588746;
+  height: 90px;
   text-align: center;
   padding-top: 10px;
 }
 
-.navbar a {
-  display: flex row;
-  justify-content: space-between;
+.navList a {
+  display: flex;
+  justify-content: space-around;
   color: white;
   font-family: 'Source Code Pro' ;
   font-size: 1rem;

@@ -2,9 +2,9 @@ import '../styles/App.css';
 import React from 'react';
 import Archer from '../assets/images/archercarrot.jpg';
 import Ray from '../assets/images/raymlem.jpg';
-import Me from '../assets/images/sittingonrock.jpg';
+import Me from '../assets/images/ashley-headshot.jpg';
 import Dig from '../assets/images/fieldwork.jpg';
-import Hiking from '../assets/images/hiking.jpg'
+import Hiking from '../assets/images/ash-and-kids.jpg'
 import Puppy from '../assets/images/puppylove.jpg'
 import Shot from '../assets/images/shot.jpg'
 
@@ -54,7 +54,7 @@ function AboutMe() {
         />;
     </div>
     <div className='aboutCard'>
-      <p className='p1'> During my post-college years I did what one does and got a dog to keep me company. This is Aurelia, my elderly goldendoodle and best friend. </p>
+      <p className='p1'> During my post-college years I did what one does and got a dog to keep me company. This is Aurelia, my geriatric goldendoodle and best friend. </p>
     </div>
     <div className='aboutCard'>
         <img 
